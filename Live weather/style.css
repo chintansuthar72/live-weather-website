@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    /* margin: 0; */
+    font-family: 'Roboto', sans-serif;  
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 20px;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+button{
+    background-color:black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about {
+    justify-self: center;
+    align-self: center;
+}
+
+.city-name {
+    background-color: darkgrey;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    font-weight: 800;
+}

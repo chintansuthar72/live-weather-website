@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Weather</h1>
+        <form>
+            <input 
+                type="text" 
+                placeholder="Search city" 
+                id='city'
+            >
+            <button type="button" onclick="searchcity()">Search</button>
+        </form>
+        <div class="info">
+            <div class="city-name">
+                <h1 id='city-name'>---</h1>
+            </div>
+            <div class="infos">
+                <h1 id="about">---</h1>
+                <ul>
+                    <li>Temp : <span id="temp">---</span> F</li>
+                    <li>Min-Temp : <span id="min-temp">---</span> F</li>
+                    <li>Max-Temp : <span id="max-temp">---</span> F</li>
+                    <li>Humidity : <span id="humidity">---</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
